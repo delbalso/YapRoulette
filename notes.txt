@@ -1,0 +1,9 @@
+heroku login
+heroku git:clone -a rocky-badlands-8451
+$ cd rocky-badlands-8451
+git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+https://dashboard.heroku.com/apps/rocky-badlands-8451/deploy/heroku-git
